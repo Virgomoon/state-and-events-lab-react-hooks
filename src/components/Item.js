@@ -1,11 +1,11 @@
 import React from "react";
-import { useState } from "react/cjs/react.production.min";
+// import { useState } from "react/cjs/react.production.min";
 // import ReactDOM from 'react-dom';
 
 function Item({ name, category }) {
 
   const [isAdded, setIsAdded] = React.useState(false);
-  console.log(isAdded)
+  // console.log(isAdded)
 
   
   function clickToCart(){
